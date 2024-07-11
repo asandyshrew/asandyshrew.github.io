@@ -20,6 +20,7 @@ let prompts = [
     {name: "Writing", id:14},
     {name: "Writing", id:15}
 ]
+
 let won = false;
 
 function handleMessage(event) {
