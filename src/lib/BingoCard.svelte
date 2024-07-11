@@ -1,5 +1,11 @@
 <script>
+    import {createEventDispatcher} from "svelte";
+
     export let name;
+    export let id;
+
+    const dispatch = createEventDispatcher();
+
     let activated = false; // was the function activated
 
 
@@ -9,22 +15,39 @@
         activated = !activated;
 
         // let element = document.getElementsByClassName("card");
-        let element = document.getElementById("container");
+        let element = document.getElementById("container" + String(id));
         // element.classList
         if (element != null) {
-            element.classList.toggle("active");
+            if (activated) {
+                element.classList.add("active");
+            } else{
+                element.classList.remove("active");
+            }
+
+            dispatch('message', {
+                text: "activated",
+                id: id
+            });
         }
+    }
+
+    function onRelease(){
+
     }
 </script>
 
 
-<div class="card" id="container" on:click={onClick}>
-    <div class="card-body">
-        <p>{name}</p>
-    </div>
+<div class="card" class:active={activated} id={"container"+id}>
+    <button on:click={onClick} type="button" class="btn btn-primary">
+        <div class="card-body">
+            <p>{name}</p>
+        </div>
+    </button>
 </div>
 
 <style>
+
+
     .card {
         aspect-ratio: 1/1;
 
@@ -37,12 +60,18 @@
         border: 3px solid green;
     }
 
-    .card .activated {
+    .active {
         background-color: green;
     }
 
     .card:hover {
         background-color: yellow;
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        height: 100%;
     }
 
     p {
