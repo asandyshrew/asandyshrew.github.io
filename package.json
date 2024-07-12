@@ -3,6 +3,9 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
+		"prepare": "npm run smui-theme-light && npm run smui-theme-dark",
+		"smui-theme-light": "smui-theme compile build/smui.css -i src/theme",
+		"smui-theme-dark": "smui-theme compile build/smui-dark.css -i src/theme/dark",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
@@ -10,6 +13,7 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
 	},
 	"devDependencies": {
+		"@smui/banner": "^7.0.0",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/adapter-static": "^3.0.2",
 		"@sveltejs/kit": "^2.0.0",

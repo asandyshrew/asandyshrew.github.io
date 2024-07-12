@@ -8,9 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c6ad9db-2c31-4f4d-9a07-3a683bc89397" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib/PlayerSelector.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Setting.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/BingoBoard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/BingoBoard.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/BingoCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/BingoCard.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +26,9 @@
         <option value="JavaScript File" />
         <option value="BingoBoard" />
         <option value="BingoCard" />
+        <option value="MenuPanel" />
+        <option value="PlayerSelector" />
+        <option value="Setting" />
       </list>
     </option>
   </component>
@@ -53,6 +59,28 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Personal\Programming\PersonalProgramming\asandyshrew.github.io\src\lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="prepare" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prepare" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.prepare" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,6 +100,7 @@
       <workItem from="1720641483270" duration="30000" />
       <workItem from="1720643002933" duration="17056000" />
       <workItem from="1720718293263" duration="7639000" />
+      <workItem from="1720801387933" duration="1752000" />
     </task>
     <servers />
   </component>
