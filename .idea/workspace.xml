@@ -8,12 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c6ad9db-2c31-4f4d-9a07-3a683bc89397" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/PlayerSelector.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/Setting.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/_smui-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/_smui-theme.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +35,16 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2j4LN3YK0wtGRbT4JBJb06WEiLq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;bingo&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
@@ -54,6 +54,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.prepare.executor&quot;: &quot;Run&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;ts.external.directory.path&quot;: &quot;E:\\Personal\\Programming\\PersonalProgramming\\asandyshrew.github.io\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -100,11 +101,15 @@
       <workItem from="1720641483270" duration="30000" />
       <workItem from="1720643002933" duration="17056000" />
       <workItem from="1720718293263" duration="7639000" />
-      <workItem from="1720801387933" duration="1752000" />
+      <workItem from="1720801387933" duration="3586000" />
+      <workItem from="1721682460420" duration="965000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
